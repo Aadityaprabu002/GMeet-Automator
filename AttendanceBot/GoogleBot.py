@@ -22,7 +22,7 @@ class GB(TimeTable.TT):
             "profile.default_content_setting_values.geolocation": 1,
             "profile.default_content_setting_values.notifications": 1
         })
-        self.driver = webdriver.Chrome(executable_path="/Users/Aaditya/Desktop/AttendanceBot/chromedriver",
+        self.driver = webdriver.Chrome(executable_path="chromedriver's path to be inserted here",
                                        options=self.options)
         self.driver.maximize_window()
         self.email = ''

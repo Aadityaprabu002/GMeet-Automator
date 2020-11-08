@@ -36,8 +36,6 @@ class GB(TimeTable.TT):
 
         self.email = input('Enter a correct valid email:')
         self.password = input('Enter a valid password for the email:')
-        self.email = 'dragonball2002abc@gmail.com'
-        self.password = 'karansai123456904'
         time.sleep(3)
         gmail_email_Xpath = '//input[@type="email"]'
         try:

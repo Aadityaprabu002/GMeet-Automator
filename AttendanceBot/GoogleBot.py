@@ -97,5 +97,5 @@ class GB(TimeTable.TT):
                DB.send_end_error_details(SUBJECT, NAME)
                print('Error encountered: while exiting the  meeting')
 
-    # def __del__(self):
-    #    self.driver.quit()
+     def __del__(self):
+        self.driver.quit()

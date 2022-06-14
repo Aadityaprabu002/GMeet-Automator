@@ -24,7 +24,7 @@ Version 1.39.122  Chromium: 102.0.5005.115 (Official Build)  (64-bit)
 - Visit [this link](https://chromedriver.chromium.org/) for downloading chromium drivers
 - Download and extract into this tool's folder
 
-## Execution
+### Execution
 - Provide the path of your browers's executable file
 - Provide the path of your webdriver
 - Feed in the inputs 

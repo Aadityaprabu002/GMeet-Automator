@@ -9,7 +9,7 @@ class TT:
     def set_day_schedule(self):
         self.date = datetime.datetime.now().strftime("%d")+'-'+datetime.datetime.now().strftime("%m")+'-'+datetime.datetime.now().strftime("%y")
         self.day =  datetime.datetime.now().strftime("%A")
-        n = int(input('Enter number of clases today:'))
+        n = int(input('\nEnter number of clases today:'))
         for i in range(n):
             subject = input('Enter the subject {}:'.format(i + 1))
             print('Please carefully enter time in this format: HH-SS (24 hour format)')

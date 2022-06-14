@@ -27,7 +27,9 @@ def WaitToEnd(subject):
 
 
 def main():
-    B = GoogleBot.GB()
+    bl = input('Enter binary location:')
+    dp = input('Enter webdriver path:')
+    B = GoogleBot.GB(bl,dp)
     B.set_day_schedule()
     B.gmail_Login()
 

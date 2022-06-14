@@ -8,7 +8,7 @@ import discordbot as DB
 
 
 class GB(TimeTable.TT):
-    def __init__(self):
+    def __init__(self,binary_location,driver_path):
         TimeTable.TT.__init__(self)
         self.options = Options()
         self.options.add_argument('--ignore-ssl-errors=yes')
@@ -22,7 +22,8 @@ class GB(TimeTable.TT):
             "profile.default_content_setting_values.geolocation": 1,
             "profile.default_content_setting_values.notifications": 1
         })
-        self.driver = webdriver.Chrome(executable_path="chromedriver's path to be inserted here",
+        self.options.binary_location = binary_location
+        self.driver = webdriver.Chrome(executable_path=driver_path,
                                        options=self.options)
         self.driver.maximize_window()
         self.email = ''
@@ -97,5 +98,5 @@ class GB(TimeTable.TT):
                DB.send_end_error_details(SUBJECT, NAME)
                print('Error encountered: while exiting the  meeting')
 
-     def __del__(self):
+    def __del__(self):
         self.driver.quit()

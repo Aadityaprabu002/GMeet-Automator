@@ -32,5 +32,10 @@ Version 1.39.122  Chromium: 102.0.5005.115 (Official Build)  (64-bit)
 - The tool automatically logs you into the google meet classroom when it starts and exits when the class is over
 - Any fault in attending class, exception message will be popped on discord server and you can go and rectify it
 - To change the discord server go to dicordbot.py and change the discord api webhook link to your own server's channel
+
+### Live Demo:
+- Was taken in phone
+- Please aplogize for the low quality
+- Visit [this link](https://www.youtube.com/watch?v=Tk8Sl0EZuaY) for demo
  
 

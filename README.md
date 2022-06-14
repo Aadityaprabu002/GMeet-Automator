@@ -3,9 +3,6 @@
 ## DESCRIPTION:
 This tool is used for attending online classes in Google meet by providing the necessary inputs. The tool is used for automating the whole process. It is built on python and uses selenium. Selenium is an open source umbrella project for a range of tools and libraries aimed at supporting browser automation. It provides a playback tool for authoring functional tests across most modern web browsers, without the need to learn a test scripting language.
 
-
-
-
 ## Pre requisites
 - You need to have browser installed
 - You need to have a email without any two step authentication or extra security.
@@ -34,5 +31,6 @@ Version 1.39.122  Chromium: 102.0.5005.115 (Official Build)  (64-bit)
 - Your schedule is ready to go!!!
 - The tool automatically logs you into the google meet classroom when it starts and exits when the class is over
 - Any fault in attending class, exception message will be popped on discord server and you can go and rectify it
-
+- To change the discord server go to dicordbot.py and change the discord api webhook link to your own server's channel
+ 
 
